@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	background: radial-gradient(circle, #020111, #000000);
+	overflow: hidden;
+	height: 100vh;
+	cursor: pointer;
+	font-family: "Arial", sans-serif;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Add large instruction text */
+.instructions {
+	font-size: 2rem;
+	font-weight: bold;
+	z-index: 10;
+	color: #ff9671;
+	text-shadow: 1px -1px 7px rgb(142 142 142 / 80%);
+}
+
+.projectile {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+		0 0 30px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+}
+
+.particule {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "Cursive", serif;
+	font-weight: bold;
+	color: white;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.sparkle {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+	transform: scale(0);
+	opacity: 0;
+}
+
+
+
+      /* BODY STYLE */
+      body {
+        margin: 0;
+        background: radial-gradient(circle, #020111, #000000);
+        overflow: hidden;
+        height: 100vh;
+        cursor: pointer;
+        font-family: "Arial", sans-serif;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      /* INSTRUCTIONS TEXT */
+      .instructions {
+        font-size: 2rem;
+        font-weight: bold;
+        z-index: 10;
+        color: #ff9671;
+        text-shadow: 1px -1px 7px rgb(142 142 142 / 80%);
+      }
+
+      /* PROJECTILE STYLE */
+      .projectile {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+          0 0 30px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+      }
+
+      /* LETTER PARTICLES */
+      .particule {
+        position: absolute;
+        font-size: 2rem;
+        font-family: "Cursive", serif;
+        font-weight: bold;
+        color: white;
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      /* SPARKLE STYLE */
+      .sparkle {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      /* RESPONSIVE STYLES */
+      @media (max-width: 1200px) {
+        .instructions {
+          font-size: 1.8rem;
+        }
+        .projectile {
+          width: 10px;
+          height: 10px;
+        }
+        .particule {
+          font-size: 1.8rem;
+        }
+        .sparkle {
+          width: 5px;
+          height: 5px;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .instructions {
+          font-size: 1.6rem;
+        }
+        .projectile {
+          width: 9px;
+          height: 9px;
+        }
+        .particule {
+          font-size: 1.6rem;
+        }
+        .sparkle {
+          width: 4.5px;
+          height: 4.5px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .instructions {
+          font-size: 1.4rem;
+        }
+        .projectile {
+          width: 8px;
+          height: 8px;
+        }
+        .particule {
+          font-size: 1.4rem;
+        }
+        .sparkle {
+          width: 4px;
+          height: 4px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .instructions {
+          font-size: 1.2rem;
+        }
+        .projectile {
+          width: 7px;
+          height: 7px;
+        }
+        .particule {
+          font-size: 1.2rem;
+        }
+        .sparkle {
+          width: 3.5px;
+          height: 3.5px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .instructions {
+          font-size: 1rem;
+        }
+        .projectile {
+          width: 6px;
+          height: 6px;
+        }
+        .particule {
+          font-size: 1rem;
+        }
+        .sparkle {
+          width: 3px;
+          height: 3px;
+        }
+      }
